@@ -7,7 +7,7 @@ public class Program2 {
     int range = sc.nextInt();
 
     for (int i = 1; i <= range * 2; i += 2) {
-      if (i < range * 2) {
+      if (i < range * 2 - 2) {
         System.out.print(i + ", ");
       } else {
         System.out.print(i);
